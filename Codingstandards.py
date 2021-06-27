@@ -67,3 +67,59 @@ password =getpass("passsword")   # onlt from cmd ok ?
 
 print( 'Logging in ..')
 
+
+#####################################3
+#spaces between operators
+
+
+
+i = i + 1
+submitted += 1
+x = x*2 - 1
+hypot2 = x*x + y*y
+c = (a+b) * (a-b)
+
+
+def complex(real, imag=0.0):
+    return magic(r=real, i=imag)
+
+########################
+if foo == 'blah':
+    do_blah_thing()
+do_one()
+do_two()
+do_three()
+
+
+FILES = [
+    'setup.cfg',
+    'tox.ini',
+    ]
+initialize(FILES,
+           error=True,
+           )
+
+# FILES = ['setup.cfg', 'tox.ini',]         # this code not clean the above is the clean version of it
+# initialize(FILES, error=True,)
+##########################################
+
+try:
+    value = collection[key]
+except KeyError:
+    return key_not_found(key)
+else:
+    return handle_value(value)
+
+################################################
+import math
+
+def foo(x):
+    if x >= 0:
+        return math.sqrt(x)
+    else:
+        return None
+
+def bar(x):
+    if x < 0:
+        return None
+    return math.sqrt(x)
